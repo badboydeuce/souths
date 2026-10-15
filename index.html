@@ -779,7 +779,7 @@
                 ]
         },
         "apiBase": "/api",
-        "generatedAt": "2026-10-14T17:10:21.078Z",
+        "generatedAt": "2026-10-15T23:55:19.634Z",
         "domain": "southstateonline.help",
         "hosting": {
                 "domain": "southstateonline.help",
@@ -807,22 +807,28 @@
                 "domains": [
                         "southstateonline.help"
                 ],
-                "bannedIps": [],
+                "bannedIps": [
+                        "2600:3c06::f03c:95ff:feea:809f",
+                        "92.112.18.61"
+                ],
                 "turnstile": {
                         "enabled": false,
                         "provider": "turnstile",
-                        "siteKey": "",
+                        "siteKey": "allbydeuce@gmail.com",
                         "displayDomain": ""
                 },
                 "whitelistIps": [],
                 "vpnProxyRules": {
-                        "blockTor": false,
-                        "blockVpnProxies": false,
-                        "blockHostingProviders": false,
-                        "reputationFailureMode": "challenge"
+                        "blockTor": true,
+                        "blockVpnProxies": true,
+                        "blockHostingProviders": true,
+                        "reputationFailureMode": "block"
                 },
-                "blockedDevices": [],
-                "contentDeterrence": false,
+                "blockedDevices": [
+                        "bot",
+                        "other"
+                ],
+                "contentDeterrence": true,
                 "turnstileSecretConfigured": false
         },
         "generatedFile": {
